@@ -1,3 +1,4 @@
 profile="terraform"
 region="ap-northeast-1"
 key_pair_name="isucon"
+vpc_id="vpc-99999999"
