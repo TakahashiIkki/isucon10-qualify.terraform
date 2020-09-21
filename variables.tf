@@ -5,3 +5,7 @@ variable "profile" {
 variable "region" {
   description = "deploy先のリージョン"
 }
+
+variable "key_pair_name" {
+  description = "EC2のキーペア名"
+}
