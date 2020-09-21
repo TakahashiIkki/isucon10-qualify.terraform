@@ -32,3 +32,4 @@ override.tf.json
 
 # 専用の変数を埋め込みする
 var.tfvars
+key.pem
