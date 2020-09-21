@@ -29,3 +29,6 @@ override.tf.json
 # example: *tfplan*
 
 .idea
+
+# 専用の変数を埋め込みする
+var.tfvars
