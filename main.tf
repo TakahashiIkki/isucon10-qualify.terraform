@@ -52,3 +52,7 @@ resource "aws_instance" "isucon-server" {
   key_name = var.key_pair_name
   vpc_security_group_ids = [aws_security_group.isucon_sg.id]
 }
+
+output "isucon_server_public_ip" {
+  value = aws_instance.isucon-server.*.public_dns
+}
