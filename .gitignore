@@ -34,4 +34,4 @@ override.tf.json
 var.tfvars
 key.pem
 
-./hosts
+!/hosts
